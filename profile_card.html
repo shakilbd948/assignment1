@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile Card</title>
+    <style>
+      body {
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+      .profile-card {
+        text-align: center;
+        border-radius: 10px;
+        margin: 0 auto;
+        align-items: center;
+        width: 400px;
+        height: auto;
+        padding: 25px;
+        background: #fff;
+        line-height: 5px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      }
+      .pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+      }
+      .contact {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .following {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        font-weight: 700;
+        color: #636363;
+      }
+      .following-count {
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 900;
+        font-size: 20px;
+      }
+      .follow {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .follow h3 {
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 100px;
+      }
+      .content-description {
+        color: #3f3b3b;
+        font-size: 18px;
+        line-height: 27px;
+      }
+      .follow-button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .follow-button button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #070606;
+        color: white;
+      }
+      .follow-button button:hover {
+        box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div>
+        <img
+          class="pic"
+          src="https://img.freepik.com/premium-photo/stylish-man-flat-vector-profile-picture-ai-generated_606187-309.jpg"
+          alt=""
+        />
+      </div>
+      <div class="title">
+        <h2>Sharifuddin Shakil</h2>
+        <p>UI/UX Designer</p>
+      </div>
+      <div class="contact">
+        <p>Email: <a href="mailto:shakil@gmail.com">shakil@gmail.com</a></p>
+        <p>Mobile: <a href="tel:+1234567890">123 45678901</a></p>
+      </div>
+      <p class="content-description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the.
+      </p>
+      <div class="following">
+        <p>Projects</p>
+        <p>Following</p>
+        <p>Followers</p>
+      </div>
+      <div class="following-count">
+        <p>18</p>
+        <p>464</p>
+        <p>852</p>
+      </div>
+      <div class="follow-button">
+        <button>Follow</button>
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </body>
+</html>
